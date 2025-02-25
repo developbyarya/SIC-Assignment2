@@ -5,6 +5,8 @@ from dotenv import load_dotenv
 from pymongo import MongoClient
 from flask import Flask, request
 
+# Kredensial dimasukkan ke file .env
+
 load_dotenv()
 
 ubidots_uri = os.environ["UBIDOTS_URI"]
